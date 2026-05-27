@@ -6,6 +6,10 @@ local map = vim.keymap.set
 map('i', 'kj', '<C-c>', { desc = 'exit insert with kj' })
 map('i', 'jj', '<C-c>', { desc = 'exit insert with kj' })
 
+-- write, quit, etc.
+map("n", "<leader>ww", "<cmd>write<CR>", { desc = "write file" })
+map("n", "<leader>q", "<cmd>quit<CR>", { desc = "quit" })
+
 -- don't yank when using x
 map('n', 'x', '"_x', { desc = 'use x without yanking' })
 

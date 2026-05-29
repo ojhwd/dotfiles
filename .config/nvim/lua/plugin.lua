@@ -11,7 +11,7 @@ vim.pack.add({
 -- === theme ===
 
 require("catppuccin").setup({
-    flavour = "frappe", -- latte, frappe, macchiato, mocha
+    flavour = "macchiato", -- latte, frappe, macchiato, mocha
 })
 
 vim.cmd.colorscheme "catppuccin-nvim"
